@@ -1,0 +1,526 @@
+#使用时请先输入参数在输入,地址0用于设定功能,地址1-8用于输入参数,地址63为输出参数.
+jump 跳转 always x false
+jump 加 equal 加法 加法
+jump 减 equal 减法 减法
+jump 乘 equal 乘法 乘法
+jump 除 equal 除法 除法
+jump 整除 equal 除法取整 除法取整
+jump 模 equal 取模 取模
+jump 余 equal 求余 求余
+jump 乘方 equal 乘方 乘方
+jump 相等 equal 是否相等 是否相等
+jump 不等 equal 是否不等 是否不等
+jump 与 equal 逻辑与 逻辑与
+jump 小于 equal 是否小于 是否小于
+jump 不大于 equal 是否不大于 是否不大于
+jump 大于 equal 是否大于 是否大于
+jump 不小于 equal 是否不小于 是否不小于
+jump 严格相等 equal 是否严格相等 是否严格相等
+jump 左移 equal 左移位 左移位
+jump 右移 equal 右移位 右移位
+jump 或 equal 逻辑或 逻辑或
+jump 按位与 equal 按位与运算 按位与运算
+jump 异或 equal 逻辑异或 逻辑异或
+jump 按位非 equal 按位非运算 按位非运算
+jump 最大 equal 最大值 最大值
+jump 最小 equal 最小值 最小值
+#向量在平面坐标系x轴为起点的逆时针角度
+jump 向量角 equal 向量角度 向量角度
+jump 欧式距 equal 欧式距离 欧式距离
+jump 噪 equal 噪声 噪声
+jump 绝对 equal 绝对值 绝对值
+jump 自然对数 equal 自然e对数 自然e对数
+jump 常用对数 equal 常用10对数 常用10对数
+jump 下取整 equal 向下取整 向下取整
+jump 上取整 equal 向上取整 向上取整
+jump 根 equal 开方 开方
+jump 随机 equal 随机数 随机数
+jump 正弦 equal 正弦值 正弦值
+jump 余弦 equal 余弦值 余弦值
+jump 正切 equal 正切值 正切值
+jump 反正弦 equal 反正弦值 反正弦值
+jump 反余弦 equal 反余弦值 反余弦值
+jump 反正切 equal 反正切值 反正切值
+jump 圆周率 equal 圆周率 圆周率
+jump 自然对数e equal 圆周率 自然对数e
+jump 二的自然对数 equal 二的自然对数 二的自然对数
+jump 十的自然对数 equal 十的自然对数 十的自然对数
+jump 二为底的自然对数 equal 二为底的自然对数 二为底的自然对数
+jump 十为底的自然对数 equal 十为底的自然对数 十为底的自然对数
+jump 二平方根的倒数 equal 二平方根的倒数 二平方根的倒数
+jump 二的开方 equal 二的开方 二的开方
+jump 欧拉常数 equal 欧拉常数 欧拉常数
+jump 黄金比例 equal 黄金比例 黄金比例
+jump 恩布里特雷费森常数 equal 恩布里特雷费森常数 恩布里特雷费森常数
+jump 第一费根鲍姆常数 equal 第一费根鲍姆常数 第一费根鲍姆常数
+jump 第二费根鲍姆常数 equal 第二费根鲍姆常数 第二费根鲍姆常数
+jump 孪生质数常数 equal 孪生质数常数 孪生质数常数
+jump 迈塞尔梅尔滕斯常数 equal 迈塞尔梅尔滕斯常数 迈塞尔梅尔滕斯常数
+jump 孪生质数之布朗常数 equal 孪生质数之布朗常数 孪生质数之布朗常数
+jump 四胞胎质数之布朗常数 equal 四胞胎质数之布朗常数 四胞胎质数之布朗常数
+jump 卡塔兰常数 equal 卡塔兰常数 卡塔兰常数
+jump 兰道拉马努金常数 equal 兰道拉马努金常数 兰道拉马努金常数
+jump Viswanath常数 equal Viswanath常数 Viswanath常数
+jump 勒让德常数 equal 勒让德常数 勒让德常数
+jump 拉马努詹索尔德纳常数 equal 拉马努詹索尔德纳常数 拉马努詹索尔德纳常数
+jump 埃尔德什波温常数 equal 埃尔德什波温常数 埃尔德什波温常数
+jump 阿培里常数 equal 阿培里常数 阿培里常数
+jump 康威常数 equal 康威常数 康威常数
+jump 辛钦常数 equal 辛钦常数 辛钦常数
+jump 刘维尔常数 equal 刘维尔常数 刘维尔常数
+jump 钱珀瑙恩数 equal 钱珀瑙恩数 钱珀瑙恩数
+jump 蔡廷常数 equal 蔡廷常数 蔡廷常数
+#内存中的九是设定对比多少组数据
+jump 多组数最大值 equal 多组数最大值 多组数最大值
+jump 多组数最小值 equal 多组数最小值 多组数最小值
+jump 曼哈顿距离 equal 曼哈顿距离 曼哈顿距离
+jump 二维欧式距离 equal 二维欧式距离 二维欧式距离
+jump 三维欧式距离 equal 三维欧式距离 三维欧式距离
+jump 切比雪夫距离 equal 切比雪夫距离 切比雪夫距离
+jump 二维向量夹角余弦 equal 二维向量夹角余弦 二维向量夹角余弦
+jump 夹角余弦 equal 夹角余弦 夹角余弦
+jump 求三角形的第三边 equal 求三角形的第三边 求三角形的第三边
+jump 测点对点碰撞 equal 测点对点碰撞 测点对点碰撞
+jump 测点对圆碰撞 equal 测点对圆碰撞 测点对圆碰撞
+jump 测圆对圆碰撞 equal 测圆对圆碰撞 测圆对圆碰撞
+jump 点与矩形的碰撞 equal 点与矩形的碰撞 点与矩形的碰撞
+跳转:
+read 类型 cell1 0
+set @counter 类型
+加:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op add 输出 输入1 输入2
+jump 结束 always x false
+减:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op sub 输出 输入1 输入2
+jump 结束 always x false
+乘:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op mul 输出 输入1 输入2
+jump 结束 always x false
+除:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op div 输出 输入1 输入2
+jump 结束 always x false
+整除:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op idiv 输出 输入1 输入2
+jump 结束 always x false
+模:
+read 输入1 cell1 2
+read 输入2 cell1 1
+op mod 输出 输入1 输入2
+jump 结束 always x false
+余:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op mod 输出 输入1 输入2
+jump 结束 always x false
+乘方:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op pow 输出 输入1 输入2
+jump 结束 always x false
+相等:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op equal 输出 输入1 输入2
+jump 结束 always x false
+不等:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op notEqual 输出 输入1 输入2
+jump 结束 always x false
+与:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op land 输出 输入1 输入2
+jump 结束 always x false
+小于:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op lessThan 输出 输入1 输入2
+jump 结束 always x false
+不大于:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op lessThanEq 输出 输入1 输入2
+jump 结束 always x false
+大于:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op greaterThan 输出 输入1 输入2
+jump 结束 always x false
+不小于:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op greaterThanEq 输出 输入1 输入2
+jump 结束 always x false
+严格相等:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op strictEqual 输出 输入1 输入2
+jump 结束 always x false
+左移:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op shl 输出 输入1 输入2
+jump 结束 always x false
+右移:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op shr 输出 输入1 输入2
+jump 结束 always x false
+或:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op or 输出 输入1 输入2
+jump 结束 always x false
+按位与:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op and 输出 输入1 输入2
+jump 结束 always x false
+异或:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op xor 输出 输入1 输入2
+jump 结束 always x false
+按位非:
+read 输入1 cell1 1
+op not 输出 输入1 输入2
+jump 结束 always x false
+最大:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op max 输出 输入1 输入2
+jump 结束 always x false
+最小:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op min 输出 输入1 输入2
+jump 结束 always x false
+向量角:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op angle 输出 输入1 输入2
+jump 结束 always x false
+欧式距:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op len 输出 输入1 输入2
+jump 结束 always x false
+噪:
+read 输入1 cell1 1
+read 输入2 cell1 2
+op noise 输出 输入1 输入2
+jump 结束 always x false
+绝对:
+read 输入1 cell1 1
+op abs 输出 输入1 输入2
+jump 结束 always x false
+自然对数:
+read 输入1 cell1 1
+op log 输出 输入1 输入2
+jump 结束 always x false
+常用对数:
+read 输入1 cell1 1
+op log10 输出 输入1 输入2
+jump 结束 always x false
+下取整:
+read 输入1 cell1 1
+op floor 输出 输入1 输入2
+jump 结束 always x false
+上取整:
+read 输入1 cell1 1
+op ceil 输出 输入1 输入2
+jump 结束 always x false
+根:
+read 输入1 cell1 1
+op sqrt 输出 输入1 输入2
+jump 结束 always x false
+随机:
+read 输入1 cell1 1
+op rand 输出 输入1 输入2
+jump 结束 always x false
+正弦:
+read 输入1 cell1 1
+op sin 输出 输入1 输入2
+jump 结束 always x false
+余弦:
+read 输入1 cell1 1
+op cos 输出 输入1 输入2
+jump 结束 always x false
+正切:
+read 输入1 cell1 1
+op tan 输出 输入1 输入2
+jump 结束 always x false
+反正弦:
+read 输入1 cell1 1
+op asin 输出 输入1 输入2
+jump 结束 always x false
+反余弦:
+read 输入1 cell1 1
+op acos 输出 输入1 输入2
+jump 结束 always x false
+反正切:
+read 输入1 cell1 1
+op atan 输出 输入1 输入2
+jump 结束 always x false
+圆周率:
+set 输出 3.141592654
+jump 结束 always x false
+自然对数e:
+set 输出 2.718281828
+jump 结束 always x false
+二的自然对数:
+set 输出 0.693147180
+jump 结束 always x false
+十的自然对数:
+set 输出 2.302585092
+jump 结束 always x false
+二为底的自然对数:
+set 输出 1.442695040
+jump 结束 always x false
+十为底的自然对数:
+set 输出 0.434294481
+jump 结束 always x false
+二平方根的倒数:
+set 输出 0.707106781
+jump 结束 always x false
+二的开方:
+set 输出 1.414213562
+jump 结束 always x false
+欧拉常数:
+set 输出 0.577215664
+jump 结束 always x false
+黄金比例:
+set 输出 1.618033988
+jump 结束 always x false
+恩布里特雷费森常数:
+set 输出 0.70258
+jump 结束 always x false
+第一费根鲍姆常数:
+set 输出 4.669201609
+jump 结束 always x false
+第二费根鲍姆常数:
+set 输出 2.502907875
+jump 结束 always x false
+孪生质数常数:
+set 输出 0.660161815
+jump 结束 always x false
+迈塞尔梅尔滕斯常数:
+set 输出 0.261497212
+jump 结束 always x false
+孪生质数之布朗常数:
+set 输出 1.902160582
+jump 结束 always x false
+四胞胎质数之布朗常数:
+set 输出 0.87058 8380
+jump 结束 always x false
+卡塔兰常数:
+set 输出 0.915965594
+jump 结束 always x false
+兰道拉马努金常数:
+set 输出 0.764223653
+jump 结束 always x false
+Viswanath常数:
+set 输出 1.13198824
+jump 结束 always x false
+勒让德常数:
+set 输出 1.08366
+jump 结束 always x false
+拉马努詹索尔德纳常数:
+set 输出 1.451369234
+jump 结束 always x false
+埃尔德什波温常数:
+set 输出 1.606695152
+jump 结束 always x false
+阿培里常数:
+set 输出 1.202056903
+jump 结束 always x false
+康威常数:
+set 输出 1.303577269
+jump 结束 always x false
+辛钦常数:
+set 输出 2.685452001
+jump 结束 always x false
+刘维尔常数:
+set 输出 0.110001000
+jump 结束 always x false
+钱珀瑙恩数:
+set 输出 0.123456789
+jump 结束 always x false
+蔡廷常数:
+set 输出 0.007874996
+jump 结束 always x false
+多组数最大值:
+set 循环 1
+read 循环次数 cell1 9
+jump 最大 lessThanEq 循环次数 2
+jump 结束 greaterThanEq 循环次数 9
+read 输出 cell1 循环
+op add 循环 循环 1
+read 对比数 cell1 循环
+op max 输出 输出 对比数
+jump 5 notEqual 循环 循环次数
+jump 结束 always x false
+多组数最小值:
+set 循环 1
+read 循环次数 cell1 9
+jump 最大 lessThanEq 循环次数 2
+jump 结束 greaterThanEq 循环次数 9
+read 输出 cell1 循环
+op add 循环 循环 1
+read 对比数 cell1 循环
+op min 输出 输出 对比数
+jump 5 notEqual 循环 循环次数
+jump 结束 always x false
+曼哈顿距离:
+read x1 cell1 1
+read y1 cell1 2
+read x2 cell1 3
+read y2 cell1 4
+op sub x x1 x2
+op sub y y1 y2
+op abs x x y2
+op abs y y y2
+op add 输出 x y
+jump 结束 always x false
+二维欧式距离:
+read x1 cell1 1
+read y1 cell1 2
+read x2 cell1 3
+read y2 cell1 4
+op sub x x1 x2
+op sub y y1 y2
+op len 输出 x y
+jump 结束 always x false
+三维欧式距离:
+read x1 cell1 1
+read y1 cell1 2
+read z1 cell1 3
+read x2 cell1 4
+read y2 cell1 5
+read z2 cell1 6
+op sub x x1 x2
+op sub y y1 y2
+op sub z z1 z2
+op pow x x 2
+op pow y y 2
+op pow z z 2
+op add xy x y
+op add xyz xy z
+op sqrt 输出 xyz y
+jump 结束 always x false
+切比雪夫距离:
+read x1 cell1 1
+read y1 cell1 2
+read x2 cell1 3
+read y2 cell1 4
+op sub x x1 x2
+op sub y y1 y2
+op abs x x y2
+op abs y y y2
+op max 输出 x y
+jump 结束 always x false
+二维向量夹角余弦:
+read x1 cell1 1
+read y1 cell1 2
+read x2 cell1 3
+read y2 cell1 4
+op mul x3 x1 x2
+op mul y3 y1 y2
+op add xy1 x3 y3
+op pow x4 x1 2
+op pow x5 x2 2
+op add xx1 x4 x5
+op sqrt xx1 xx1 b
+op pow y4 y1 2
+op pow y5 y2 2
+op add yy1 y4 y5
+op sqrt yy1 yy1 b
+op mul xxyy1 xx1 yy1
+op div 输出 xy1 xxyy1
+jump 结束 always x false
+夹角余弦:
+read x1 cell1 1
+read x2 cell1 2
+read y1 cell1 3
+read y2 cell1 4
+op sub xx x2 x1
+op sub yy y2 y1
+op div 输出 xx yy
+jump 结束 always x false
+求三角形的第三边:
+read a cell1 1
+read b cell1 2
+read º cell1 3
+op pow a1 a 2
+op pow b1 b 2
+op add ab1 a1 b1
+op mul a2 2 a
+op mul ab2 a2 b
+op mul ab2 ab2 cell1 0.999847695
+op sub ab3 ab1 ab2
+op sqrt 输出 ab3 ab2
+jump 结束 always x false
+测点对点碰撞:
+read x1 cell1 1
+read y1 cell1 2
+read x2 cell1 3
+read y2 cell1 4
+op strictEqual c1 x1 x2
+op strictEqual c2 y1 y2
+op land 输出 c1 c2
+jump 结束 always x false
+测点对圆碰撞:
+read x1 cell1 0
+read y1 cell1 0
+read x2 cell1 0
+read y2 cell1 0
+read r cell1 0
+op sub c1 x1 x2
+op sub c2 y1 y2
+op len d c1 c2
+op lessThanEq 输出 d r
+jump 结束 always x false
+测圆对圆碰撞:
+read x1 cell1 1
+read y1 cell1 2
+read r1 cell1 3
+read x2 cell1 4
+read y2 cell1 5
+read r2 cell1 6
+op sub c1 x1 x2
+op sub c2 y1 y2
+op len d c1 c2
+op add r r1 r2
+op lessThanEq 输出 d r
+jump 结束 always x false
+点与矩形的碰撞:
+read x1 cell1 1
+read y1 cell1 2
+read x2 cell1 3
+read y2 cell1 4
+read w cell1 5
+read h cell1 6
+op greaterThanEq xx1 x1 x2
+op add xw1 x2 w
+op lessThanEq xx2 x1 xw1
+op land xxxx1 xx1 xx2
+op greaterThan yy1 y1 y2
+op add yh1 y2 h
+op lessThanEq yy2 y1 yh1
+op land yyyy1 yy1 yy2
+op or 输出 xxxx1 yyyy1
+jump 结束 always x false
+结束:
+write 输出 cell1 63
+write 0 cell1 0
